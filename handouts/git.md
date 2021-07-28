@@ -1081,7 +1081,7 @@ $ git push -f origin <branch>
 ex) 현재 HEAD에서 직전의 3개의 commit을 순서대로 거슬러 올라가 해당 내역에 대해 commit, push 수행
 
 ```shell
-$ git revert --no-commit HEAD~3
+$ git revert --no-commit HEAD~3..
 
 $ git commit
 
